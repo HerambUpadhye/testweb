@@ -25,5 +25,6 @@ sudo cp -r . /var/www/html/
 
 # Set correct permissions
 sudo chown -R apache:apache /var/www/html || sudo chown -R www-data:www-data /var/www/html
+sudo rm /var/www/html/deploy-webiste.sh
 
 echo "Website deployed successfully!"
